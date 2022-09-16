@@ -1,7 +1,7 @@
 // header scss
 .header {
   padding: 0;
-  background-color: #0C3900;
+  background-color: #2D3976;
   -webkit-box-shadow: 0px -5px 25px 16px #000000; 
   box-shadow: 0px -2px 11px 6px #000000;
 
@@ -165,7 +165,7 @@
   nav a {
     position: relative;
     text-decoration: none;
-    color: #0C3900;
+    color: #2D3976;
     font-size: 14px;
     display: inline-block;
     transition: color 0.2s ease-in-out;
@@ -182,7 +182,7 @@
   }
   nav a:hover {
     color: white;
-    background-color: #0C3900;
+    background-color: #2D3976;
   }
 
   nav a:hover:before {

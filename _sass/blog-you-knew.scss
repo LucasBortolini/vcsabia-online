@@ -1,7 +1,7 @@
 // blog you knew
 .blog-you-knew {
   h1 {
-    color: #6225B5;
+    color: #2D3976;
     font-weight: 600;
     font-size: 16px;
     margin: 0;
@@ -10,7 +10,7 @@
       content: '';
       width: 60px;
       height: 2px;
-      background: #6225B5;
+      background: #2D3976;
       display: block;
       margin: 7px 0;
     }
@@ -35,7 +35,7 @@
 
   .header-blog-you-knew {
     a {
-      color: #6225B5;
+      color: #2D3976;
       font-weight: bold;
       font-size: 15px;
 
@@ -43,7 +43,7 @@
         content: '';
         width: 90px;
         height: 2px;
-        background: #6225B5;
+        background: #2D3976;
         display: block;
         margin: 4px 0;
       }
@@ -61,7 +61,7 @@
 
       @media (min-width: 579px) {
         &:hover {
-          background-color: #0C3900;
+          background-color: #2D3976;
           border-radius: 4px;
 
           & > h2 {
