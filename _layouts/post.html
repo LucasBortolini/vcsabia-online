@@ -9,14 +9,14 @@ layout: base
 <!-- post layout -->
 <div class="post-layout">
   <div class="d-flex flex-column align-items-center bg-banner bg-no-repeat">
+    <!-- banner post -->
     <div class="d-flex justify-content-center mx-auto pt-4">
-      <!-- banner post -->
       <div class="d-flex mx-5 mx-md-0">
         <a href="#">
           <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe mw-100">
         </a>
-      </div> <!-- end banner post -->
-    </div>
+      </div>
+    </div> <!-- end banner post -->
     <!-- container blog -->
     <div class="container-blog px-2 px-md-5 py-3">
       <div class="d-flex flex-wrap justify-content-center justify-content-md-between flex-md-nowrap bg-white px-4 py-3">
@@ -39,18 +39,17 @@ layout: base
           </div>
           <!-- content -->
           {{ content }} <!-- end content -->
-          <!-- blog post -->
-          {%- include blog-post.html -%} <!-- end blog post -->
-          <!-- header post -->
         </article>
-        <div class="float-right float-post">
-          <!-- ads post -->
-          {%- include ads-post.html -%} <!-- end ads post -->
-          <!-- did you know post -->
-          {%- include did-you-know-post.html -%} <!-- end did you know post -->
-        </div>
       </div>
     </div> <!-- end container blog -->
+    <!-- banner post -->
+    <div class="d-flex justify-content-center mx-auto pb-3">
+      <div class="d-flex mx-5 mx-md-0">
+        <a href="#">
+          <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe mw-100">
+        </a>
+      </div>
+    </div> <!-- end banner post -->
   </div>
 </div> <!-- end post layout -->
 {%- include curiosities.html -%}
