@@ -1,0 +1,42 @@
+// content layout post
+.content-layout {
+  p {
+    opacity: 0.8;
+    font-size: 14px;
+  }
+
+  span.tag {
+    background: #455968;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 8px;
+    font-size: 10px;
+    border-radius: 4px;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  a {
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+
+  textarea {
+    width: 100%;
+    resize: none;
+  }
+
+  h2 {
+    font-size: 10px;
+  }
+
+  .gap-tags {
+    gap: 6px;
+  }
+}

@@ -1,0 +1,87 @@
+// others you knew
+.others-you-knew {
+  span {
+    color: gray;
+    font-size: 12px;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+
+  h2 {
+    color: #6225B5;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+
+    &::after {
+      content: '';
+      width: 60px;
+      height: 2px;
+      background: #6225B5;
+      display: block;
+      margin: 7px 0;
+    }
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  hr {
+    border: 1px solid black;
+  }
+
+  a {
+    cursor: pointer;
+  }
+
+  .hover-others {
+    text-decoration: none;
+
+    &:hover {
+      background-color: #0C3900;
+      border-radius: 4px;
+
+      & > div h3 {
+        color: #FFF;
+      }
+
+      & > div p {
+        color: #FFF;
+      }
+
+      & > div span {
+        color: #FFF;
+      }
+    }
+  }
+
+  .btn-others {
+    background: #F2902C;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 5px -2px #000000; 
+    box-shadow: 0px 0px 5px -2px #000000;
+    transition: box-shadow 0.1s ease-in-out;
+    min-width: 160px;
+
+    &:hover {
+      -webkit-box-shadow: none; 
+    }
+
+    span {
+      color: #000;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}

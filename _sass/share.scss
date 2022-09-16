@@ -1,0 +1,31 @@
+// share absolute
+.share {
+  position: fixed;
+  display: none;
+  z-index: 5;
+  top: 122px;
+  left: 28px;
+
+  @media (min-width: 576px) {
+    display: block;
+  }
+
+  h1 {
+    font-size: 12px;
+    color: gray;
+  }
+
+  a {
+    cursor: pointer;
+    
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    } 
+  }
+
+  img {
+    width: 36px;
+  }
+}
