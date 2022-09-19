@@ -5,7 +5,7 @@ permalink: /post
 
 <!-- content layout post -->
 <section class="content-layout">
-  <div class="post-image my-3"></div>
+  <div class="post-image border-blog my-3"></div>
   <!-- post -->
   <div class="ml-0">
     <p class="mb-0">
@@ -42,16 +42,7 @@ permalink: /post
         <img src="{{ 'assets/images/linkedin.png'  | relative_url }}" class="icons-post">
       </a>
       <a href="{{ '#' | relative_url }}">
-        <img src="{{ 'assets/images/pinterest.png'  | relative_url }}" class="icons-post">
-      </a>
-      <a href="{{ '#' | relative_url }}">
-        <img src="{{ 'assets/images/tiktok.png'  | relative_url }}" class="icons-post">
-      </a>
-      <a href="{{ '#' | relative_url }}">
         <img src="{{ 'assets/images/twitter.png'  | relative_url }}" class="icons-post">
-      </a>
-      <a href="{{ '#' | relative_url }}">
-        <img src="{{ 'assets/images/youtube.png'  | relative_url }}" class="icons-post">
       </a>
     </div>
   </div> <!-- end tags post -->
