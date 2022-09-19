@@ -39,4 +39,14 @@
   .gap-tags {
     gap: 6px;
   }
+
+  .post-image {
+    width: full;
+    height: 200px;
+    background-color: #000;
+
+    @media (min-width: 959px) {
+      height: 400px;
+    }
+  }
 }
