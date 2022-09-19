@@ -1,0 +1,89 @@
+// blog you knew
+.post-you-knew {
+  background-color: #2D3976;
+
+  h1 {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+
+    &::after {
+      content: '';
+      width: 48px;
+      height: 2px;
+      background: #FFF;
+      display: block;
+      margin: 7px 0;
+    }
+  }
+
+  h2 {
+   font-size: 14px;
+   font-weight: 600;
+   color: #FFF;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 1.1;
+    color: #FFF;
+  }
+
+  span {
+    font-size: 10px;
+    color: #FFF;
+  }
+
+  .header-post-you-knew {
+    a {
+      color: #FFF;
+      font-weight: bold;
+      font-size: 15px;
+
+      &::after {
+        content: '';
+        width: 90px;
+        height: 2px;
+        background: #FFF;
+        display: block;
+        margin: 4px 0;
+      }
+    }
+  }
+
+  .row {
+    a {
+      cursor: pointer;
+      text-decoration: none;
+
+      &::after {
+        display: none;
+      }
+
+      @media (min-width: 579px) {
+        &:hover {
+          background-color: #FFCF00;
+          border-radius: 4px;
+
+          & > h2 {
+            color: #000;
+          }
+
+          & > p {
+            color: #000;
+          }
+
+          & > span {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+}
