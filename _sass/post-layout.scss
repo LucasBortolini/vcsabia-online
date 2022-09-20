@@ -4,10 +4,6 @@
     color: #2D3976;
   }
 
-  .bg-black {
-    background-color: #FFF;
-  }
-
   .bg-banner {
     background-image: url("images/banner-index.jpg");
     background-color: #F7F7F7;
@@ -22,15 +18,5 @@
 
   .border-blog {
     border-radius: 4px;
-  }
-
-  .float-post {
-    min-width: 25%;
-    max-width: 30%;
-
-    @media (min-width: 1080px) {
-      min-width: 25%;
-      max-width: 300px;      
-    }
   }
 }

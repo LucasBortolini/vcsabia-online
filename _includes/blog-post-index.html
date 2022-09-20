@@ -1,0 +1,38 @@
+<!-- post layout -->
+<div class="blog-post-index">
+  <div class="d-flex flex-column align-items-center bg-banner bg-no-repeat">
+    <!-- banner post -->
+    <div class="d-flex justify-content-center mx-auto pt-4">
+      <div class="d-flex mx-5 mx-md-0">
+        <a href="#">
+          <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe mw-100">
+        </a>
+      </div>
+    </div> <!-- end banner post -->
+    <!-- container blog -->
+    <div class="container-blog px-2 px-md-5 py-3">
+      <div class="d-flex flex-wrap justify-content-center justify-content-md-between flex-md-nowrap bg-white px-md-4 py-3 border-blog mx-2 mx-md-0">
+        <div class="w-100">
+          <!-- title -->
+          <div class="d-flex flex-column align-items-center">
+            <h1 class="text-uppercase font-weight-bold text-center my-1">
+              Postagens do blog
+            </h1> <!-- end title -->
+            <!-- border title -->
+            <hr class="my-0 mt-1"> <!-- end border title -->
+          </div>
+          <!-- include -->
+          {%- include content-blog-post.html -%} <!-- end include -->
+        </div>
+      </div>
+    </div> <!-- end container blog -->
+    <!-- banner post -->
+    <div class="d-flex justify-content-center mx-auto pb-3">
+      <div class="d-flex mx-5 mx-md-0">
+        <a href="#">
+          <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe mw-100">
+        </a>
+      </div>
+    </div> <!-- end banner post -->
+  </div>
+</div> <!-- end post layout -->
